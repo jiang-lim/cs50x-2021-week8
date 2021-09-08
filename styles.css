@@ -1,0 +1,111 @@
+.jumbotron {
+    background-color: #379683;
+    color: #EDF5E1;
+}
+
+.navbar {
+    background-color: #379683;
+}
+
+body {
+    background-color: #5CDB95;
+    color: #EDF5E1;
+}
+
+.carousel {
+  width: 640px;
+  height: auto;
+  margin: 0 auto;
+  float: none;
+}
+
+.carousel-inner {
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+.darken {
+  filter: brightness(45%);
+}
+
+/* unvisited link */
+a:link {
+  color: #EDF5E1;
+}
+
+/* visited link */
+a:visited {
+  color: #EDF5E1;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#city-rec {
+  margin-top: 25px;
+}
+
+#credits {
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+/* Social media icons
+Reference: https://codepen.io/laurenclark/pen/hGiqo
+*/
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+    border-radius: 35px;
+    overflow: hidden;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.social-icon {
+    color: #5CDB95;
+}
+
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+}
+.social-icons a {
+    color: #EDF5E1;
+    text-decoration: none;
+}
